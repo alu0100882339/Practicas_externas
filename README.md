@@ -1,3 +1,4 @@
+
  #DOCKER Y DOCKER COMPOSE
  
  En el ejemplo de Docker-compose (composet) se construye una aplicación web en Pyhton que se ejecuta en Docker Compos.
@@ -16,3 +17,4 @@
  ## Comando para listar las imagenes -> docker images ls
 
  
+
