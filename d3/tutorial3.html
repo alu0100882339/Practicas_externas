@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://d3js.org/d3.v4.js"></script> 
+    <svg width="400" height="400">
+        <circle cx="50" cy="50" r="10"></circle>
+        <circle cx="150" cy="50" r="10"></circle>
+        <circle cx="210" cy="320" r="10"></circle>
+        <circle cx="210" cy="30" r="10"></circle>
+        <circle cx="180" cy="200" r="10"></circle>
+    </svg>
+    <script>
+        var svg = d3.select("svg"); //Devuelve un objeto d3 que contiene la etiqueta svg y todas las etiquetas secundarias.
+        var circles = svg.selectAll("circle"); //Crea un objeto a partir de todos los elementos circle
+        console.log("Probando");
+        circles.data(data);
+        console.log(circles.node());
+        
+    </script>
+    
+</body>
+</html>
